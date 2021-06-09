@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="358444" started-at="2021-06-09T15:25:08Z" finished-at="2021-06-09T15:31:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="358444" started-at="2021-06-09T15:25:08Z" finished-at="2021-06-09T15:31:06Z">
+      <class name="Project_script.Ndtv">
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:Project_script.Ndtv@1afd44cb]" name="Beforemethod" is-config="true" duration-ms="31754" started-at="2021-06-09T20:55:08Z" finished-at="2021-06-09T20:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="ValidateTempDiff()[pri:0, instance:Project_script.Ndtv@1afd44cb]" name="ValidateTempDiff" duration-ms="326454" started-at="2021-06-09T20:55:40Z" finished-at="2021-06-09T21:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTempDiff -->
+      </class> <!-- Project_script.Ndtv -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
