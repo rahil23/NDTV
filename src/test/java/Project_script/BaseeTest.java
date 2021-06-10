@@ -3,6 +3,7 @@ package Project_script;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import Keywords.Application_key;
@@ -24,5 +25,10 @@ public class BaseeTest {
 		app.driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 	}
 	
+	@AfterMethod
+	public void afterMethod()
+	{
+		app.driver.quit();
+	}
 
 }
